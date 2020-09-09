@@ -19,8 +19,26 @@
     font-weight: 700;
 }
 .intro{
-    background-color: blueviolet;
+    background-color: rgb(177, 174, 174);
+    /* height: 500px;
+    width: 800px; */
 }
 .headshot{
     margin: 20px
 }
+.about{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px
+}
+/* .image{
+    background: url(../images/headshot.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 1000px 700px ;
+} */
