@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Akshita's Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="icon" href="assets/images/portfolio.png" type="image/x-icon" sizes="16x16">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <style>
+     .card{
+    border-radius: 10px;
+    /* margin:.8rem; */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+   </style>
+      </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                <a href="assets/images/Resume-Akshita.p.pdf" target="blank"><img src="assets/images/resume.png"
+                  style="margin-left: 10px;margin-bottom:9px;margin-right:3px" width="40" height="35"></img></a>
+                <a href="https://github.com/akshitap31" target="blank" style="color:black"><i class="fa fa-github"
+                    style="font-size:36px;"></i></a>
+                <a href="https://www.linkedin.com/in/akshita-parasrampuria-786377169/" target="blank"
+                  style="color:#0073B1"><i class="fa fa-linkedin-square" style="font-size:36px; margin-left: 10px"></i></a>
+                <a href="mailto:parasrampuriaakshita95@gmail.com" target="blank" style="color:black"><i
+                    class="fa fa-envelope" style="font-size:36px; margin-left: 10px"></i></a>
+                <a href="https://public.tableau.com/profile/akshita.parasrampuria#!/" target="blank"><img src="assets/images/tableau.png"
+                    style="margin-left: 10px;margin-bottom:9px;margin-right: 30px" width="40" height="35"></img></a>
+              </span>
+            </div>
+          </nav>
+          <div class="container">
+            <h4>Group Projects</h4>
+            <div class="row">
+              <div class="card col-lg-4 col-md-6" style="width:100%">
+                <img class="card-img-top" src="assets/images/sentiment.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Twitter Sentiment Analysis US Election 2020</h5>
+                  <p class="card-text">Used machine learning and natural language processing to predict sentiments behind tweets mentioning the presidential candidates, President Trump and Mr. Biden. 
+                    Extracted Data using Twitter API, transformed and cleaned in Python using libraries like TextBlob, NLTK, loaded the data in an AWS PostgreSQL DB, built a flask app and interactive 
+                    visualizations using JS libraries and deployed the app using heroku.</p>
+                  <a href="https://tweet-sentiments-analysis.herokuapp.com/" class="btn btn-primary" target="blank">Project</a>
+                  <a href="https://github.com/akshitap31/sentimentanalysis" class="btn btn-primary" target="blank">GitHub</a>
+                </div>
+              </div>
+              <div class="card col-lg-4 col-md-6">
+                <img class="card-img-top" src="assets/images/military.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Military Spending by Countries</h5>
+                  <p class="card-text">As a group of three, analyzed military spending among all countries between 1960 and 2018, compared Total Military Spend in USD as well as military spend as a percentage of each country's GDP. Performed ETL using python and loaded data in sqllite DB, created a flask app and interactive visualizations using JavaScript. </p>
+                  <a href="http://militaryspending.herokuapp.com/" target="blank" class="btn btn-primary">Project</a>
+                  <a href="https://github.com/akshitap31/Military-Spending" class="btn btn-primary" target="blank">GitHub</a>
+                </div>
+              </div>
+              <div class="card col-lg-4 col-md-6">
+                <img class="card-img-top" src="assets/images/pharma.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Pharmaceutical Business Data Analysis</h5>
+                  <p class="card-text">The project, completed by a team of four, to analyse a sample dataset of Offshore business by US based 
+                    Pharmaceutical Companies and assist in decision making. Used several Python Libraries to perform data analysis, GeoCode API, 
+                    World Bank API, Jupyter Notebook and Facebook's Prophet Model for Time Series Analysis . </p>
+                  <a href="https://github.com/akshitap31/Offshore-Drug-Revenue"  target="blank" class="btn btn-primary">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <h4>Individual Projects</h4>
+              <div class="row">
+                <div class="card col-lg-4 col-md-6" style="width: 100%;">
+                  <img class="card-img-top"src="assets/images/mars.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Scraping Mars</h5>
+                    <p class="card-text">The application created in this project scrapes 5 different websites for latest information on Mars and displays
+                       it on a HTML page. It uses Beautiful Soup, Splinter, Pandas and chromedriver to scrape, and a flask app was created to launch the HTML page
+                        which uses jinja and python functions to do the live scraping.</p>
+                    <a href="https://github.com/akshitap31/Mission-to-Mars-with-web-scraping" target="blank" class="btn btn-primary">GitHub</a>
+                  </div>
+                </div>
+                <div class="card col-lg-4 col-md-6">
+                  <img class="card-img-top" src="assets/images/citi.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Citi Bikes Data Analysis with Tableau</h5>
+                    <p class="card-text">This project creates an interactive dashboard using Tableau to visualize Citi Bikes Data which will identify busy stations, 
+                      rush hours and find trends of usage that can help the customers to decide their time and route of travel and the management to put in right 
+                      policies to meet the rising demand.</p>
+                    <a href="https://public.tableau.com/profile/akshita.parasrampuria#!/vizhome/citi_bikes/Story1" target="blank" class="btn btn-primary">Project</a>
+                    <a href="https://github.com/akshitap31/Citi-Bikes-Tableau" target="blank" class="btn btn-primary">GitHub</a>
+                  </div>
+                </div>
+                <div class="card col-lg-4 col-md-6"  >
+                  <img class="card-img-top" src="assets/images/d3.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Health Risks Demogs</h5>
+                    <p class="card-text">The purpose of this project is to see health risks facing particular demographics by visualising through a single scatter 
+                      plot that if poverty, age, or household income has any correlation to obesity, smoking or lack of healthcare. With a single scatter plot, 9 
+                      different correlations are being visulaized.</p>
+                    <a href="https://akshitap31.github.io/Health-Risk-demog-D3.js/index.html" target="blank" class="btn btn-primary">Project</a>
+                    <a href="https://github.com/akshitap31/Health-Risk-demog-D3.js"target="blank" class="btn btn-primary">GitHub</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        <footer>
+            <div class="footer">© Akshita Parasrampuria</div>
+        </footer>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
