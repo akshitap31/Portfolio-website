@@ -1,44 +1,81 @@
 .navbar{
-    background-color: white;
-    
+    background-color: #62BFFC;
+    height:70px
 }
 .navbar-brand{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:rgb(73, 185, 174);
+    background-color: #ffe066    ;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-size: xx-large;
-    height: 50px;
-    margin-top: -20px;
+    padding-top: 1px;
+    /* padding-bottom: 15px; */
+    font-size: 34px;
+    height: 100% ;
+    /* margin-top: -20px; */
+    color: white
     
 }
-.navbar-light .navbar-brand{
+.navbar-brand{
     color:white;
     font-weight: 700;
 }
+#navbarText{
+    font-size: 30px;
+}
 .intro{
-    background-color: rgb(218, 214, 214)
+    /* background-color: rgb(218, 214, 214) */
      /* rgb(218, 214, 214); */
     /* height: 500px;
     width: 800px; */
 }
 .headshot{
-    margin: 20px    
-}
+    margin: 20px;
+    /* height:  20%; */
+    border-radius: 50%;
+    /* border: 4px solid #62BFFC;     */
+    /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);  */
+}   
 .about{
     display: inline-block;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color:white;
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 700px;
-    font-size: large
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;   
+    /* font-family: Arial, Helvetica, sans-serif; */
+    width: 900px;
+    margin-top: 80px;
+    font-size: large;
+    /* margin-left: 30%; */
 }
-
+/* body   {
+    height: 900px;
+    background-image: url("../images/home.jpg"); */
+    /* background-size: cover; */
+    /* background-position: left center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+} */
+h9, h1{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /* font-family: 'Montserrat', sans-serif;  */
+    color: #62BFFC; 
+p{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+button{
+    font-size: 46px;
+}
+.heading{
+    color: #62BFFC;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+    /* font-size: larger; */
+/* } */
 /* .image{
     background: url(../images/headshot.jpg);
     border-radius: 10px;

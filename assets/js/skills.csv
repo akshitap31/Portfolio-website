@@ -1,0 +1,9 @@
+id,value
+Skills,
+Skills.Languages,
+Skills.Languages.Python,10
+Skills.Languages.JavaScript,1
+Skills.Databases,
+Skills.Databases.PostgreSQL,10
+Skills.Databases.MongoDB,11
+
