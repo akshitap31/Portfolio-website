@@ -4,7 +4,7 @@ var svg = d3.select("svg"),
     g = svg.append("g").attr("transform", "translate(40,0)");
 
 var tree = d3.tree()
-    .size([height, width-250]);
+    .size([height, width-180]);
 
 // var cluster = d3.cluster()
 //     .size([height, width - 160]);
