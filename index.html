@@ -8,7 +8,38 @@
         <link rel="icon" href="assets/images/portfolio.png" type="image/x-icon" sizes="16x16">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- <script src="assets/js/dendrogram.js" type="text/JavaScript"></script>  -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <style>
+
+.node circle {
+  fill: #999;
+}
+
+.node text {
+  font: 13px sans-serif;
+}
+
+.node--internal circle {
+  fill: #555;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #555;
+  stroke-opacity: 0.4;
+  stroke-width: 1.5px;
+}
+
+label {
+  display: block;
+}
+
+        </style>
       </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
@@ -38,12 +69,12 @@
                 <a href="assets/images/Resume-Akshita.p.pdf" target="blank" title="Resume"><img src="assets/images/resume.png"
                   style="margin-left: 10px;margin-bottom:9px;margin-right:3px" width="40" height="35"></img></a>
                 <a href="https://github.com/akshitap31" target="blank" title="GitHub Profile" style="color:black"><i class="fa fa-github"
-                    style="font-size:36px;"></i></a>
+                    style="font-size:36px;margin-bottom: 3x;"></i></a>
                 <a href="https://www.linkedin.com/in/akshita-parasrampuria-786377169/" title="LinkedIn Profile" target="blank"
                   style="color:#0073B1"><i class="fa fa-linkedin-square" style="font-size:36px; margin-left: 10px"></i></a>
                 <a href="mailto:parasrampuriaakshita95@gmail.com" target="blank" title="E-Mail"style="color:black"><i
                     class="fa fa-envelope" style="font-size:36px; margin-left: 10px"></i></a>
-                    <a href="tel:+18483914116" target="blank" title="E-Mail"style="color:black"><i class="fa fa-phone" style="font-size:36px;
+                    <a href="tel:+18483914116" target="blank" title="Mobile"style="color:black"><i class="fa fa-phone" style="font-size:36px;
                       margin-left: 10px"></i></a>
                 <a href="https://public.tableau.com/profile/akshita.parasrampuria#!/" title="Tableau Public Profile" target="blank"><img src="assets/images/tableau.png"
                     style="margin-left: 10px;margin-bottom:9px;margin-right: 30px" width="40" height="35"></img></a>
@@ -172,13 +203,19 @@
             <h1 class="heading">Skills</h1>
             <hr style="border:1px solid#ffe066">
             <!-- <div id="my_dataviz"></div> -->
-            <svg width="960" height="950"></svg>
+            <!-- <label><input type="radio" name="mode" value="cluster" checked> Dendrogram</label>
+            <label><input type="radio" name="mode" value="tree"> Tree</label>
+          </form> -->
+          <svg width="700" height="770"></svg>
+            <!-- <svg width="1000" height="400"></svg> -->
           </div>
+
+
           <div id="contact">  
             <h1 class="heading">Contact</h1>
             <hr style="border:1px solid#ffe066">
             <div class=row>
-              <span style="align-items: center center; margin-left: 35%;">
+              <span style="margin-left: 25%;">
                 
                 <a href="assets/images/Resume-Akshita.p.pdf" target="blank" title="Resume"><img src="assets/images/resume.png"
                   style="margin-bottom:27px;margin-right:3px" width="40" height="45"></img></a>
@@ -188,7 +225,7 @@
                   style="color:#0073B1"><i class="fa fa-linkedin-square" style="font-size:50px; margin-left: 20px"></i></a>
                 <a href="mailto:parasrampuriaakshita95@gmail.com" target="blank" title="E-Mail"style="color:black"><i
                     class="fa fa-envelope" style="font-size:50px; margin-left: 20px"></i></a>
-                <a href="tel:+18483914116" target="blank" title="E-Mail"style="color:black"><i class="fa fa-phone" style="font-size:50px;
+                <a href="tel:+18483914116" target="blank" title="Mobile"style="color:black"><i class="fa fa-phone" style="font-size:50px;
                   margin-left: 20px"></i></a>
                 <a href="https://public.tableau.com/profile/akshita.parasrampuria#!/" title="Tableau Public Profile" target="blank"><img src="assets/images/tableau.png"
                     style="margin-left: 15px;margin-right: 30px;margin-bottom:27px;" width="40" height="35"></img></a>
