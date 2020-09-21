@@ -12,7 +12,7 @@ var tree = d3.cluster()
     .size([360, 390])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
-d3.csv("https://raw.githubusercontent.com/akshitap31/Portfolio-website/master/assets/data/skills.csv", function(error, data) {
+d3.csv("https://raw.githubusercontent.com/akshitap31/Portfolio-website/master/assets/js/skills.csv", function(error, data) {
   if (error) throw error;
 console.log(data)
   var root = tree(stratify(data)

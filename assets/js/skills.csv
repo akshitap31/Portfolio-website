@@ -29,52 +29,43 @@ Skills.Python-Libraries,Scikit-Learn,1
 Skills.Python-Libraries,SciPy,1
 Skills.Python-Libraries,TensorFlow,1
 Skills.Python-Libraries,Keras,1
-
 Skills.Other-Technologies,
-
-Skills.Other-Technologies,Web Scraping,
-Skills.Other-Technologies,Web Scraping,ChromeDriver,1
-Skills.Other-Technologies,Web Scraping,Beautiful Soup,1
-Skills.Other-Technologies,Web Scraping,Splinter,1
-
-Skills.Other-Technologies,API Calls,
-Skills.Other-Technologies,API Calls,Google Places API,1
-Skills.Other-Technologies,API Calls,Mapbox API,1
-Skills.Other-Technologies,API Calls,Twitter API,1
-Skills.Other-Technologies,API Calls,OWM API,1
-Skills.Other-Technologies,API Calls,IMDB API,1
-
+Skills.Other-Technologies,Web-Scraping,
+Skills.Other-Technologies,Web-Scraping,ChromeDriver,1
+Skills.Other-Technologies,Web-Scraping,BeautifulSoup,1
+Skills.Other-Technologies,Web-Scraping,Splinter,1
+Skills.Other-Technologies,API_Calls,
+Skills.Other-Technologies,API_Calls,Google_Places_API,1
+Skills.Other-Technologies,API_Calls,Mapbox_API,1
+Skills.Other-Technologies,API_Calls,Twitter_API,1
+Skills.Other-Technologies,API_Calls,OWM_API,1
+Skills.Other-Technologies,API_Calls,IMDB_API,1
 Skills.Other-Technologies,Time-Series-Analysis,
-Skills.Other-Technologies,Time-Series-Analysis,Prophet by Facebook,1
-Skills.Other-Technologies,Time-Series-Analysis,ARIMA Model,1
-
+Skills.Other-Technologies,Time-Series-Analysis,Prophet_by_Facebook,1
+Skills.Other-Technologies,Time-Series-Analysis,ARIMA_Model,1
 Skills.Statistics,
-Skills.Statistics,A/B Testing,1
-Skills.Statistics,Chi-square Test,1
+Skills.Statistics,A/B_Testing,1
+Skills.Statistics,Chi-square_Test,1
 Skills.Statistics,T-Test,1
-
-Skills.Other-Technologies,Cloud Computing,
-Skills.Other-Technologies,Cloud Computing,AWS-RDS,1
-Skills.Other-Technologies,Cloud Computing,Google Colaboratory,1
-Skills.Other-Technologies,Cloud Computing,Pyspark,1
-
-Skills.Other-Technologies,Machine Learning,
-Skills.Other-Technologies,Machine Learning,Supervised and unsupervised ML,1
-Skills.Other-Technologies,Machine Learning,Natural Language Processing,1
-Skills.Other-Technologies,Machine Learning,Image recognition,1
-
-Skills.Other-Technologies,Advanced MS Excel,1
+Skills.Other-Technologies,Cloud-Computing,
+Skills.Other-Technologies,Cloud-Computing,AWS-RDS,1
+Skills.Other-Technologies,Cloud-Computing,Google-Colaboratory,1
+Skills.Other-Technologies,Cloud-Computing,Pyspark,1
+Skills.Other-Technologies,MachineLearning,
+Skills.Other-Technologies,MachineLearning,Supervised-and-Unsupervised-ML,1
+Skills.Other-Technologies,MachineLearning,NaturalLanguageProcessing,1
+Skills.Other-Technologies,MachineLearning,ImageRecognition,1
+Skills.Other-Technologies,Advanced_MS-Excel,1
 Skills.Other-Technologies,Jinja,1
-Skills.Other-Technologies,Git and GitHub,1
+Skills.Other-Technologies,Git_and_GitHub,1
 Skills.Other-Technologies,Heroku,1
-Skills.Other-Technologies,Jupyter Notebook,1
+Skills.Other-Technologies,Jupyter_Notebook,1
 Skills.Other-Technologies,SAP,1
 Skills.Other-Technologies,SFDC,1
-Skills.Other-Technologies,BPM by IBM,1
-
+Skills.Other-Technologies,BPM_by_IBM,1
 Skills,Soft-Skills,
-Skills,Soft-Skills,Individula and TeamWorker,1
-Skills,Soft-Skills,Fast Learner,1
+Skills,Soft-Skills,Individual_and_TeamWorker,1
+Skills,Soft-Skills,Fast_Learner,1
 Skills,Soft-Skills,Communication,1
 Skills,Soft-Skills,Adaptability,1
 Skills,Soft-Skills,Creative,1
