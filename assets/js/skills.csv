@@ -3,7 +3,80 @@ Skills,
 Skills.Languages,
 Skills.Languages.Python,10
 Skills.Languages.JavaScript,1
+Skills.Languages.SQL,1
+Skills.Languages.R,1
+Skills.Languages.HTML,1
+Skills.Languages.CSS,1
+Skills.Languages.VBA,1
 Skills.Databases,
 Skills.Databases.PostgreSQL,10
 Skills.Databases.MongoDB,11
+Skills.Databases.SQLite,11
+Skills.Visualizations,
+Skills.Visualizations,D3.js,10
+Skills.Visualizations,Chart.js,10
+Skills.Visualizations,Leaflet,10
+Skills.Visualizations,Plotly.js,10
+Skills.Visualizations,Tableau,11
+Skills.Python-Libraries,
+Skills.Python-Libraries,Pandas,1
+Skills.Python-Libraries,Matplotlib,1
+Skills.Python-Libraries,NumPy,1
+Skills.Python-Libraries,SQLAlchemy,1
+Skills.Python-Libraries,PyMongo,1
+Skills.Python-Libraries,Flask,1
+Skills.Python-Libraries,Scikit-Learn,1
+Skills.Python-Libraries,SciPy,1
+Skills.Python-Libraries,TensorFlow,1
+Skills.Python-Libraries,Keras,1
 
+Skills.Other-Technologies,
+
+Skills.Other-Technologies,Web Scraping,
+Skills.Other-Technologies,Web Scraping,ChromeDriver,1
+Skills.Other-Technologies,Web Scraping,Beautiful Soup,1
+Skills.Other-Technologies,Web Scraping,Splinter,1
+
+Skills.Other-Technologies,API Calls,
+Skills.Other-Technologies,API Calls,Google Places API,1
+Skills.Other-Technologies,API Calls,Mapbox API,1
+Skills.Other-Technologies,API Calls,Twitter API,1
+Skills.Other-Technologies,API Calls,OWM API,1
+Skills.Other-Technologies,API Calls,IMDB API,1
+
+Skills.Other-Technologies,Time-Series-Analysis,
+Skills.Other-Technologies,Time-Series-Analysis,Prophet by Facebook,1
+Skills.Other-Technologies,Time-Series-Analysis,ARIMA Model,1
+
+Skills.Statistics,
+Skills.Statistics,A/B Testing,1
+Skills.Statistics,Chi-square Test,1
+Skills.Statistics,T-Test,1
+
+Skills.Other-Technologies,Cloud Computing,
+Skills.Other-Technologies,Cloud Computing,AWS-RDS,1
+Skills.Other-Technologies,Cloud Computing,Google Colaboratory,1
+Skills.Other-Technologies,Cloud Computing,Pyspark,1
+
+Skills.Other-Technologies,Machine Learning,
+Skills.Other-Technologies,Machine Learning,Supervised and unsupervised ML,1
+Skills.Other-Technologies,Machine Learning,Natural Language Processing,1
+Skills.Other-Technologies,Machine Learning,Image recognition,1
+
+Skills.Other-Technologies,Advanced MS Excel,1
+Skills.Other-Technologies,Jinja,1
+Skills.Other-Technologies,Git and GitHub,1
+Skills.Other-Technologies,Heroku,1
+Skills.Other-Technologies,Jupyter Notebook,1
+Skills.Other-Technologies,SAP,1
+Skills.Other-Technologies,SFDC,1
+Skills.Other-Technologies,BPM by IBM,1
+
+Skills,Soft-Skills,
+Skills,Soft-Skills,Individula and TeamWorker,1
+Skills,Soft-Skills,Fast Learner,1
+Skills,Soft-Skills,Communication,1
+Skills,Soft-Skills,Adaptability,1
+Skills,Soft-Skills,Creative,1
+Skills,Soft-Skills,Integrity,1
+Skills,Soft-Skills,Leadership,1
